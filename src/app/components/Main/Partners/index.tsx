@@ -15,6 +15,7 @@ type PropType = {
 const Partners: React.FC<PropType> = (props) => {
     const { slides, options } = props;
     const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
+    console.log(emblaApi, "emblaApi: ");
     return (
         <section className="embla" dir="rtl">
             <div className="embla__viewport" ref={emblaRef}>
