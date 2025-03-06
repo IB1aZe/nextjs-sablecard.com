@@ -27,18 +27,22 @@ export default function Header() {
             <div className="relative mt-4 ml-12 mr-[27rem] grid grid-cols-2">
                 <Image src={logo} alt="logo" />
                 <nav className="relative grid-cols-4 grid items-center justify-between">
-                    <ul className="flex text-white font-light ">
+                    <a href="#" className="flex text-white font-light ">
                         CREDIT
                         <p>&nbsp;</p>
                         <Image src={greenCircle} alt="green-circle" />
-                    </ul>
-                    <ul className="flex text-white font-light">DEBIT</ul>
-                    <ul className="flex text-white font-light">APP</ul>
-                    <ul className="flex text-white font-light">
+                    </a>
+                    <a href="#" className="flex text-white font-light">
+                        DEBIT
+                    </a>
+                    <a href="#" className="flex text-white font-light">
+                        APP
+                    </a>
+                    <a href="#" className="flex text-white font-light">
                         LEARN
                         <p>&nbsp;</p>
                         <Image src={greenCircle} alt="green-circle" />
-                    </ul>
+                    </a>
                 </nav>
             </div>
             <div className="relative flex justify-center ml-auto">
